@@ -1,0 +1,45 @@
+.NavBar--container {
+  height: 60px;
+  position: sticky;
+  left: 0px;
+}
+.NavBar--wrapper {
+  padding: 12px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.NavBar--left,
+.NavBar--right,
+.NavBar--centre {
+  flex: 1;
+}
+.NavBar--left {
+  display: flex;
+  align-items: center;
+}
+.NavBar--centre {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.searchContainer {
+  display: flex;
+  border: 1px solid grey;
+  margin-left: 15px;
+}
+
+.NavBar--input:focus {
+  outline: none;
+}
+.NavBar--input {
+  height: 20px;
+  border: none;
+  padding-left: 5px;
+}
+.NavBar--menu {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}

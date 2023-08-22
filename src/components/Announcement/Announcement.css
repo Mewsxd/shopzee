@@ -1,0 +1,11 @@
+.announcement--container {
+  width: 100%;
+  min-width: 375px;
+  height: 30px;
+  background-color: teal;
+  color: white;
+  font-size: 11px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
